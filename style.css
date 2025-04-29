@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ body {
+    background-color: #ffe4e1;
+    text-align: center;
+ }
+ 
+ #galeria {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+ }
+ 
+ img {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+ }
+ 
+ img:hover {
+    opacity: 0.4;
+    border: 1px solid #000;
+    filter: drop-shadow(0 0 5px #000);
+    transform: scale(1.05);
+    transition: filter 0.1s;
+ }
+
+ #pikachu:hover {
+opacity: 0.7;
+filter: drop-shadow(0 0 5px #75ba75); 
+transform: scale(1.05);
+transition: filter 0.1s;
+ }
+
+ #charmander:hover {
+   opacity: 0.7;
+   filter: drop-shadow(0 0 5px #fad61e); 
+   transform: scale(1.05);
+   transition: filter 0.1s;
+    }
+
+ #bulbasaur:hover {
+      opacity: 0.7;
+      filter: drop-shadow(0 0 5px #fad61e); 
+      transform: scale(1.05);
+      transition: filter 0.1s;
+       }
